@@ -2588,12 +2588,36 @@ section,
 }
 
 /* Cores/fundos específicos com imagem */
-.icon-bg-1 { background-image: url('../img/clients/client-1.png'); background-color: #e3f2fd; }
-.icon-bg-2 { background-image: url('../img/clients/client-2.png'); background-color: #fce4ec; }
-.icon-bg-3 { background-image: url('../img/clients/client-3.png'); background-color: #e8f5e9; }
-.icon-bg-4 { background-image: url('../img/clients/client-4.png'); background-color: #fff3e0; }
-.icon-bg-5 { background-image: url('../img/clients/client-5.png'); background-color: #ede7f6; }
-.icon-bg-6 { background-image: url('../img/clients/client-6.png'); background-color: #e0f7fa; }
+.icon-bg-1 {
+  background-image: url('../img/clients/client-1.png'); 
+  background-size: cover;
+}
+
+.icon-bg-2 {
+  background-image: url('../img/clients/client-2.png'); 
+  background-size: cover;
+}
+
+.icon-bg-3 {
+  background-image: url('../img/clients/client-3.png'); 
+  background-size: cover;
+}
+
+.icon-bg-4 {
+  background-image: url('../img/clients/client-4.png'); 
+  background-size: cover;
+}
+
+.icon-bg-5 {
+  background-image: url('../img/clients/client-5.png');
+  background-size: cover;
+}
+
+.icon-bg-6 { 
+  background-image: url('../img/clients/client-6.png');
+  background-size: cover;
+}
+
 
 /* Título e descrição */
 .service-item h3 {
