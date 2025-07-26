@@ -1,2 +1,2 @@
-# projeto_guiaestudo
-Projeto criado por Colegas do IFPE
+# guia
+ Projeto criado por colegas do IFPE
