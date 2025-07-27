@@ -230,14 +230,7 @@
 // Testando JS 15/06/2025
 // Codigo criado por VG para usado abrir uma tela na Section Serviços
 
-
-
-
-
-
-
-
-//<!-- 1 Desenvolvimento de APIs e Microserviços-->
+// <!-- 1 APIs e Microserviços -->
 function abrirExplicacaoDevAPIeMicroservicos() {
   document.getElementById('explicacao-overlay-devapiemicroservicos').style.display = 'flex'; 
 }
@@ -246,52 +239,34 @@ function fecharExplicacaoDevAPIeMicroservicos() {
 }
 
 
-//<!-- 2 Desenvolvimento de Inteligência Artificial e Machine Learning -->
-function abrirExplicacaoDevIAeML() {
-  document.getElementById('explicacao-overlay-deviaeml').style.display = 'flex'; 
+// <!-- 2 Big Data Engineering -->
+function abrirExplicacaoDevBigDataEngineering() {
+  document.getElementById('explicacao-overlay-devBigDataEngineering').style.display = 'flex'; 
 }
-function fecharExplicacaoDevIAeML() {
-  document.getElementById('explicacao-overlay-deviaeml').style.display = 'none'; 
-}
-
-
-//<!-- 3 Desenvolvimento de Jogos Digitais-->
-function abrirExplicacaoDevJD() {
-  document.getElementById('explicacao-overlay-devjd').style.display = 'flex'; 
-}
-function fecharExplicacaoDevJD() {
-  document.getElementById('explicacao-overlay-devjd').style.display = 'none'; 
+function fecharExplicacaoDevBigDataEngineering() {
+  document.getElementById('explicacao-overlay-devBigDataEngineering').style.display = 'none'; 
 }
 
 
-//<!-- 4 Desenvolvimento de Realidade Virtual (VR) e Realidade Aumentada (AR) -->
-function abrirExplicacaoDevVreAr() {
-  document.getElementById('explicacao-overlay-devvrear').style.display = 'flex'; 
+// <!-- 3 Chatbots e Assistentes Virtuais -->
+function abrirExplicacaoDevChatbotseAssistentesVirtuais() {
+  document.getElementById('explicacao-overlay-devChatbotseAssistentesVirtuais').style.display = 'flex'; 
 }
-function fecharExplicacaoDevVreAr() {
-  document.getElementById('explicacao-overlay-devvrear').style.display = 'none'; 
-}
-
-
-//<!-- 5 Desenvolvimento de Sistemas de Segurança da Informação (Cybersecurity) -->
-function abrirExplicacaoDevCybersecurity() {
-  document.getElementById('explicacao-overlay-devcybersecurity').style.display = 'flex'; 
-}
-function fecharExplicacaoDevCybersecurity() {
-  document.getElementById('explicacao-overlay-devcybersecurity').style.display = 'none'; 
+function fecharExplicacaoDevChatbotseAssistentesVirtuais() {
+  document.getElementById('explicacao-overlay-devChatbotseAssistentesVirtuais').style.display = 'none'; 
 }
 
 
-//<!-- 6 Desenvolvimento de Sistemas Embarcados -->
-function abrirExplicacaoDevSistemasEmbarcados() {
-  document.getElementById('explicacao-overlay-devsistemasembarcados').style.display = 'flex'; 
+// <!-- 4 Ciência de Dados (Data Science) -->
+function abrirExplicacaoDevDataScience() {
+  document.getElementById('explicacao-overlay-devDataScience').style.display = 'flex'; 
 }
-function fecharExplicacaoDevSistemasEmbarcados() {
-  document.getElementById('explicacao-overlay-devsistemasembarcados').style.display = 'none'; 
+function fecharExplicacaoDevDataScience() {
+  document.getElementById('explicacao-overlay-devDataScience').style.display = 'none'; 
 }
 
 
-//<!-- 7 Desenvolvimento Cloud Computing -->
+// <!-- 5 Cloud Computing -->
 function abrirExplicacaoDevCC() {
   document.getElementById('explicacao-overlay-devcc').style.display = 'flex'; 
 }
@@ -300,7 +275,7 @@ function fecharExplicacaoDevCC() {
 }
 
 
-//<!-- 8 Desenvolvimento Desktop-->
+// <!-- 6 Desktop -->
 function abrirExplicacaoDevDesktop() {
   document.getElementById('explicacao-overlay-devdesktop').style.display = 'flex'; 
 }
@@ -308,8 +283,61 @@ function fecharExplicacaoDevDesktop() {
   document.getElementById('explicacao-overlay-devdesktop').style.display = 'none';   
 }
 
+// <!-- 7 DevOps e Engenharia de Confiabilidade (SRE) -->
+function abrirExplicacaoDevDevOpseEngenhariadeConfiabilidade() {
+  document.getElementById('explicacao-overlay-devDevOpseEngenhariadeConfiabilidade').style.display = 'flex'; 
+}
+function fecharExplicacaoDevDevOpseEngenhariadeConfiabilidade() {
+  document.getElementById('explicacao-overlay-devDevOpseEngenhariadeConfiabilidade').style.display = 'none'; 
+}
 
-// <!-- 9 Desenvolvimento Mobile -->
+
+// <!-- 8 Engenharia de Qualidade de Software / QA -->
+function abrirExplicacaoDevEngenhariadeQualidadedeSoftware() {
+  document.getElementById('explicacao-overlay-devEngenhariadeQualidadedeSoftware').style.display = 'flex'; 
+}
+function fecharExplicacaoDevEngenhariadeQualidadedeSoftware() {
+  document.getElementById('explicacao-overlay-devEngenhariadeQualidadedeSoftware').style.display = 'none'; 
+}
+
+
+// <!-- 9 Full Stack -->
+function abrirExplicacaoDevFullStack() {
+  document.getElementById('explicacao-overlay-devFullStack').style.display = 'flex'; 
+}
+function fecharExplicacaoDevFullStack() {
+  document.getElementById('explicacao-overlay-devFullStack').style.display = 'none'; 
+}
+
+
+// <!-- 10 Inteligência Artificial e Machine Learning -->
+function abrirExplicacaoDevIAeML() {
+  document.getElementById('explicacao-overlay-deviaeml').style.display = 'flex'; 
+}
+function fecharExplicacaoDevIAeML() {
+  document.getElementById('explicacao-overlay-deviaeml').style.display = 'none'; 
+}
+
+
+// <!-- 11 Jogos Digitais -->
+function abrirExplicacaoDevJD() {
+  document.getElementById('explicacao-overlay-devjd').style.display = 'flex'; 
+}
+function fecharExplicacaoDevJD() {
+  document.getElementById('explicacao-overlay-devjd').style.display = 'none'; 
+}
+
+
+// <!-- 12 Low-code / No-code -->
+function abrirExplicacaoDevLowcodeNocode() {
+  document.getElementById('explicacao-overlay-devLowcodeNocode').style.display = 'flex'; 
+}
+function fecharExplicacaoDevLowcodeNocode() {
+  document.getElementById('explicacao-overlay-devLowcodeNocode').style.display = 'none'; 
+}
+
+
+// <!-- 13 Mobile -->
 function abrirExplicacaoDevMobile() {
   document.getElementById('explicacao-overlay-devmobile').style.display = 'flex'; 
 }
@@ -318,7 +346,61 @@ function fecharExplicacaoDevMobile() {
 }
 
 
-// <!-- 10 Desenvolvimento WEB -->
+// <!-- 14 Realidade Virtual (VR) e Realidade Aumentada (AR) -->
+function abrirExplicacaoDevVreAr() {
+  document.getElementById('explicacao-overlay-devvrear').style.display = 'flex'; 
+}
+function fecharExplicacaoDevVreAr() {
+  document.getElementById('explicacao-overlay-devvrear').style.display = 'none'; 
+}
+
+
+// <!-- 15 Robótica AI -->
+function abrirExplicacaoDevRobóticaAI() {
+  document.getElementById('explicacao-overlay-devRobóticaAI').style.display = 'flex'; 
+}
+function fecharExplicacaoDevRobóticaAI() {
+  document.getElementById('explicacao-overlay-devRobóticaAI').style.display = 'none'; 
+}
+
+
+// <!-- 16 Sistemas de Automação Industrial -->
+function abrirExplicacaoDevSistemasdeAutomaçãoIndustrial() {
+  document.getElementById('explicacao-overlay-devSistemasdeAutomaçãoIndustrial').style.display = 'flex'; 
+}
+function fecharExplicacaoDevSistemasdeAutomaçãoIndustrial() {
+  document.getElementById('explicacao-overlay-devSistemasdeAutomaçãoIndustrial').style.display = 'none'; 
+}
+
+
+// <!-- 17 Sistemas de Segurança da Informação (Cybersecurity) -->
+function abrirExplicacaoDevCybersecurity() {
+  document.getElementById('explicacao-overlay-devcybersecurity').style.display = 'flex'; 
+}
+function fecharExplicacaoDevCybersecurity() {
+  document.getElementById('explicacao-overlay-devcybersecurity').style.display = 'none'; 
+}
+
+
+// <!-- 18 Sistemas Embarcados -->
+function abrirExplicacaoDevSistemasEmbarcados() {
+  document.getElementById('explicacao-overlay-devsistemasembarcados').style.display = 'flex'; 
+}
+function fecharExplicacaoDevSistemasEmbarcados() {
+  document.getElementById('explicacao-overlay-devsistemasembarcados').style.display = 'none'; 
+}
+
+
+// <!-- 19 Sistemas para Internet das Coisas (IoT) -->
+function abrirExplicacaoDevSistemasparaInternetdasCoisas() {
+  document.getElementById('explicacao-overlay-devSistemasparaInternetdasCoisas').style.display = 'flex'; 
+}
+function fecharExplicacaoDevSistemasparaInternetdasCoisas() {
+  document.getElementById('explicacao-overlay-devSistemasparaInternetdasCoisas').style.display = 'none'; 
+}
+
+
+// <!-- 20 Web -->
 function abrirExplicacaoDevWeb() {
   document.getElementById('explicacao-overlay-devweb').style.display = 'flex'; 
 }
@@ -328,22 +410,28 @@ function fecharExplicacaoDevWeb() {
 
 
 
-
-
-
-
 // Fecha com ESC
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') {
     fecharExplicacaoDevAPIeMicroservicos();
-    fecharExplicacaoDevIAeML();
-    fecharExplicacaoDevJD();
-    fecharExplicacaoDevVreAr();
-    fecharExplicacaoDevCybersecurity();
-    fecharExplicacaoDevSistemasEmbarcados();
+    fecharExplicacaoDevBigDataEngineering();
+    fecharExplicacaoDevChatbotseAssistentesVirtuais();
+    fecharExplicacaoDevDataScience();
     fecharExplicacaoDevCC();
     fecharExplicacaoDevDesktop();
+    fecharExplicacaoDevDevOpseEngenhariadeConfiabilidade();
+    fecharExplicacaoDevEngenhariadeQualidadedeSoftware();
+    fecharExplicacaoDevFullStack();
+    fecharExplicacaoDevIAeML();
+    fecharExplicacaoDevJD();
+    fecharExplicacaoDevLowcodeNocode();
     fecharExplicacaoDevMobile();
+    fecharExplicacaoDevVreAr();
+    fecharExplicacaoDevRobóticaAI();
+    fecharExplicacaoDevSistemasdeAutomaçãoIndustrial();
+    fecharExplicacaoDevCybersecurity();
+    fecharExplicacaoDevSistemasEmbarcados();
+    fecharExplicacaoDevSistemasparaInternetdasCoisas();
     fecharExplicacaoDevWeb();
   }
 });

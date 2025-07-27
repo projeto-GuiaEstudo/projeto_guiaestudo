@@ -52,7 +52,7 @@
         <ul>
           <li><a href="#hero" class="active">Início</a></li>
           <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
+          <li><a href="#services">Áreas</a></li>
           <li><a href="#clients">Plataformas</a></li>
           <li><a href="#faq">Dúvidas</a></li>
           <li><a href="#footer">Contato</a></li>
@@ -132,8 +132,8 @@
     <section id="services" class="services section">
       <!-- Título da Seção -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Serviços</h2>
-        <p>Necessidades que resultam de algo que escapa, com certeza são valores que precisam ser atendidos</p>
+        <h2>Áreas da Tecnologia da Informação</h2>
+        <p>Conheça as principais especializações da TI que impulsionam a inovação e transformam o mercado.</p>
       </div><!-- Fim do Título da Seção -->
       <div class="container">
 
@@ -145,214 +145,288 @@
           <!-- A partir daqui -->
           
 
-          <!-- 1 Desenvolvimento de APIs e Microserviços-->
+          <!-- 1 APIs e Microserviços -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative" onclick="abrirExplicacaoDevAPIeMicroservicos()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento de APIs e Microserviços</h3>
-              <p>
-                Desenvolvimento de APIs e Microserviços
-              </p>
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>APIs e Microserviços</h3>
+              <p>Desenvolvimento de APIs e Microserviços</p>
             </div>
+            <script>
+              fetch('components/overlay-devapiemicroservicos.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devapiemicroservicos.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-
-          <!-- 2 Desenvolvimento de Inteligência Artificial e Machine Learning -->
+          <!-- 2 Big Data Engineering -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative" onclick="abrirExplicacaoDevIAeML()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento de Inteligência Artificial e Machine Learning</h3>
-              <p>
-                Desenvolvimento de Inteligência Artificial e Machine Learning
-              </p>
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevBigDataEngineering()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Big Data Engineering</h3>
+              <p>Big Data Engineering</p>
             </div>
+            <script>
+              fetch('components/overlay-devBigDataEngineering.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-deviaeml.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-
-          <!-- 3 Desenvolvimento de Jogos Digitais-->
+          <!-- 3 Chatbots e Assistentes Virtuais -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative" onclick="abrirExplicacaoDevJD()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento de Jogos Digitais</h3>
-              <p>
-                Desenvolvimento de Jogos Digitais
-              </p>
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevChatbotseAssistentesVirtuais()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Chatbots e Assistentes Virtuais</h3>
+              <p>Chatbots e Assistentes Virtuais</p>
             </div>
+            <script>
+              fetch('components/overlay-devChatbotseAssistentesVirtuais.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devjd.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-
-          <!-- 4 Desenvolvimento de Realidade Virtual (VR) e Realidade Aumentada (AR) -->
+          <!-- 4 Ciência de Dados (Data Science) -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative" onclick="abrirExplicacaoDevVreAr()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento de Realidade Virtual (VR) e Realidade Aumentada (AR)</h3>
-              <p>
-                Desenvolvimento de Realidade Virtual (VR) e Realidade Aumentada (AR)
-              </p>
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevDataScience()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Ciência de Dados (Data Science)</h3>
+              <p>Data Science</p>
             </div>
+            <script>
+              fetch('components/overlay-devDataScience.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devvrear.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-          
-          <!-- 5 Desenvolvimento de Sistemas de Segurança da Informação (Cybersecurity) -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative" onclick="abrirExplicacaoDevCybersecurity()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Cybersecurity</h3>
-              <p>
-                Desenvolvimento de Sistemas de Segurança da Informação (Cybersecurity)
-              </p>
-            </div>
-          </div>
-          <script>
-            fetch('components/overlay-devcybersecurity.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
-          
-
-          <!-- 6 Desenvolvimento de Sistemas Embarcados -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative" onclick="abrirExplicacaoDevSistemasEmbarcados()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento de Sistemas Embarcados</h3>
-              <p>
-                Desenvolvimento de Sistemas Embarcados
-              </p>
-            </div>
-          </div>
-          <script>
-            fetch('components/overlay-devsistemasembarcados.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
-
-
-          <!-- 7 Desenvolvimento Cloud Computing -->
+          <!-- 5 Cloud Computing -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative" onclick="abrirExplicacaoDevCC()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento Cloud Computing</h3>
-              <p>
-                Desenvolvimento Cloud Computing
-              </p>
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Cloud Computing</h3>
+              <p>Cloud Computing</p>
             </div>
+            <script>
+              fetch('components/overlay-devcc.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devcc.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-
-          <!-- 8 Desenvolvimento Desktop-->
+          <!-- 6 Desktop -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative" onclick="abrirExplicacaoDevDesktop()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento Desktop</h3>
-              <p>
-                Desenvolvimento Desktop
-              </p>
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Desktop</h3>
+              <p>Desenvolvimento Desktop</p>
             </div>
+            <script>
+              fetch('components/overlay-devdesktop.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devdesktop.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
-          <!-- 9 Desenvolvimento Mobile -->
+          <!-- 7 DevOps e Engenharia de Confiabilidade (SRE) -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevDevOpseEngenhariadeConfiabilidade()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>DevOps e Engenharia de Confiabilidade</h3>
+              <p>DevOps e Engenharia de Confiabilidade</p>
+            </div>
+            <script>
+              fetch('components/overlay-devDevOpseEngenhariadeConfiabilidade.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 8 Engenharia de Qualidade de Software / QA -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevEngenhariadeQualidadedeSoftware()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Engenharia de Qualidade de Software / QA</h3>
+              <p>Engenharia de Qualidade de Software / QA</p>
+            </div>
+            <script>
+              fetch('components/overlay-devEngenhariadeQualidadedeSoftware.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 9 Full Stack -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevFullStack()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Full Stack</h3>
+              <p>Full Stack</p>
+            </div>
+            <script>
+              fetch('components/overlay-devFullStack.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 10 Inteligência Artificial e Machine Learning -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevIAeML()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Inteligência Artificial e Machine Learning</h3>
+              <p>Desenvolvimento de Inteligência Artificial e Machine Learning</p>
+            </div>
+            <script>
+              fetch('components/overlay-deviaeml.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 11 Jogos Digitais -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevJD()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Jogos Digitais</h3>
+              <p>Desenvolvimento de Jogos Digitais</p>
+            </div>
+            <script>
+              fetch('components/overlay-devjd.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 12 Low-code / No-code -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevLowcodeNocode()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Low-code / No-code</h3>
+              <p>Low-code / No-code</p>
+            </div>
+            <script>
+              fetch('components/overlay-devLowcodeNocode.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 13 Mobile -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative" onclick="abrirExplicacaoDevMobile()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento Mobile</h3>
-              <p>
-                Desenvolvimento Mobile
-              </p>
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Mobile</h3>
+              <p>Desenvolvimento Mobile</p>
             </div>
+            <script>
+              fetch('components/overlay-devmobile.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devmobile.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
 
+          <!-- 14 Realidade Virtual (VR) e Realidade Aumentada (AR) -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevVreAr()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Realidade Virtual (VR) e Realidade Aumentada (AR)</h3>
+              <p>Desenvolvimento de Realidade Virtual (VR) e Realidade Aumentada (AR)</p>
+            </div>
+            <script>
+              fetch('components/overlay-devvrear.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
 
+          <!-- 15 Robótica AI -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevRobóticaAI()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Robótica AI</h3>
+              <p>Robótica AI</p>
+            </div>
+            <script>
+              fetch('components/overlay-devRobóticaAI.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
 
-          <!-- 10 Desenvolvimento WEB -->
+          <!-- 16 Sistemas de Automação Industrial -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevSistemasdeAutomaçãoIndustrial()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Sistemas de Automação Industrial</h3>
+              <p>Sistemas de Automação Industrial</p>
+            </div>
+            <script>
+              fetch('components/overlay-devSistemasdeAutomaçãoIndustrial.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 17 Sistemas de Segurança da Informação (Cybersecurity) -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevCybersecurity()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Sistemas de Segurança da Informação (Cybersecurity)</h3>
+              <p>Desenvolvimento de Sistemas de Segurança da Informação (Cybersecurity)</p>
+            </div>
+            <script>
+              fetch('components/overlay-devcybersecurity.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 18 Sistemas Embarcados -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevSistemasEmbarcados()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Sistemas Embarcados</h3>
+              <p>Desenvolvimento de Sistemas Embarcados</p>
+            </div>
+            <script>
+              fetch('components/overlay-devsistemasembarcados.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 19 Sistemas para Internet das Coisas (IoT) -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative" onclick="abrirExplicacaoDevSistemasparaInternetdasCoisas()">
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Sistemas para Internet das Coisas (IoT)</h3>
+              <p>Sistemas para Internet das Coças (IoT)</p>
+            </div>
+            <script>
+              fetch('components/overlay-devSistemasparaInternetdasCoisas.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
+          </div>
+
+          <!-- 20 Web -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative" onclick="abrirExplicacaoDevWeb()">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Desenvolvimento WEB</h3>
-              <p>
-                Desenvolvimento WEB
-              </p>
+              <div class="icon"><i class="bi bi-broadcast"></i></div>
+              <h3>Web</h3>
+              <p>Desenvolvimento WEB</p>
             </div>
+            <script>
+              fetch('components/overlay-devweb.html')
+                .then(response => response.text())
+                .then(html => document.body.insertAdjacentHTML('beforeend', html));
+            </script>
           </div>
-          <script>
-            fetch('components/overlay-devweb.html')
-              .then(response => response.text())
-              .then(html => {
-                document.body.insertAdjacentHTML('beforeend', html);
-              });
-          </script>
+
+
+
         </div>
       </div>
     </section>
@@ -567,7 +641,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
               <p>Áreas de Estudo</p>
             </div>
           </div><!-- Fim do item Estatística -->
