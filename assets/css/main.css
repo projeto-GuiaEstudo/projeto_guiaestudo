@@ -2544,6 +2544,14 @@ section,
   color: #1E3A8A;
 }
 
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+
 
 
 
