@@ -356,11 +356,11 @@ function fecharExplicacaoDevVreAr() {
 
 
 // <!-- 15 Robótica AI -->
-function abrirExplicacaoDevRobóticaAI() {
-  document.getElementById('explicacao-overlay-devRobóticaAI').style.display = 'flex'; 
+function abrirExplicacaoDevRoboticaAI() {
+  document.getElementById('explicacao-overlay-devRoboticaAI').style.display = 'flex'; 
 }
-function fecharExplicacaoDevRobóticaAI() {
-  document.getElementById('explicacao-overlay-devRobóticaAI').style.display = 'none'; 
+function fecharExplicacaoDevRoboticaAI() {
+  document.getElementById('explicacao-overlay-devRoboticaAI').style.display = 'none'; 
 }
 
 
@@ -427,7 +427,7 @@ document.addEventListener('keydown', function (e) {
     fecharExplicacaoDevLowcodeNocode();
     fecharExplicacaoDevMobile();
     fecharExplicacaoDevVreAr();
-    fecharExplicacaoDevRobóticaAI();
+    fecharExplicacaoDevRoboticaAI();
     fecharExplicacaoDevSistemasdeAutomaçãoIndustrial();
     fecharExplicacaoDevCybersecurity();
     fecharExplicacaoDevSistemasEmbarcados();
